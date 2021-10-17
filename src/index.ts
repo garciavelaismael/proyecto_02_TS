@@ -79,7 +79,6 @@ const buscador = async () => {
   }
 };
 
-//Actualiza el objeto "unidades"
 const actualizar = async (prod: Producto | undefined) => {
   if (prod != undefined) {
     let NOMBRE: string = await leer("\nProducto a modificar: ");
@@ -102,7 +101,6 @@ const actualizar = async (prod: Producto | undefined) => {
   }
 };
 
-//menu
 const main = async () => {
   let n: number;
   let prod: Producto | undefined;
